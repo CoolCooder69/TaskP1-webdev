@@ -1,310 +1,393 @@
-
 <!doctype html>
 <html lang="en">
 
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Task P1</title>
 
-  <!-- Tailwind CSS -->
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+ <title>Task P1</title>
 
-  <!-- Google Sans -->
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
 
-    * {
-      box-sizing: border-box;
-      font-family: "Google Sans";
-    }
-  </style>
+ <!-- Tailwind CSS -->
+ <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+ <!-- Google Sans -->
+ <style>
+   @import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
+
+
+   * {
+     box-sizing: border-box;
+     font-family: "Google Sans";
+   }
+ </style>
 </head>
+
 
 <body>
 
-  <div class="min-h-screen w-full flex flex-col gap-20">
-
-    <header
-      class="min-h-1/4 w-full bg-white text-lg pt-15 flex justify-center"
-    >
-
-      <div class="border h-full gap-20 px-5 py-5 flex justify-between">
-
-        <!-- Logo -->
-        <div class="bg-black text-white cursor-pointer px-3 py-2">
-          Cool Coody
-        </div>
 
-        <!-- Navigation -->
-        <div class="px-20 w-full h-14 gap-20 flex justify-start items-center">
+ <div class="min-h-screen w-full flex flex-col gap-20">
 
-          <div
-            class="px-8 py-2 cursor-pointer hover:bg-black hover:text-white hover:underline transition duration-75"
-          >
-            Home
-          </div>
 
-          <div
-            class="px-8 py-2 cursor-pointer hover:bg-black hover:text-white hover:underline transition duration-75"
-          >
-            Projects
-          </div>
+   <header
+     class="min-h-1/4 w-full bg-white text-lg pt-15 flex justify-center"
+   >
 
-          <div
-            class="px-8 py-2 cursor-pointer hover:bg-black hover:text-white hover:underline transition duration-75"
-          >
-            Profile
-          </div>
 
-        </div>
+     <div class="border h-full gap-20 px-5 py-5 flex justify-between">
 
-        <!-- GitHub -->
-        <div class="w-1/4 h-14 flex justify-center items-center gap-20">
 
-          <button
-            class="flex no-underline hover:underline cursor-pointer items-center gap-2"
-          >
-            Github
+       <!-- Logo -->
+       <div class="bg-black text-white cursor-pointer px-3 py-2">
+         Cool Coody
+       </div>
 
-            <div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                x="0px"
-                y="0px"
-                width="30"
-                height="30"
-                viewBox="0 0 30 30"
-              >
-                <path
-                  d="M 25.980469 2.9902344 A 1.0001 1.0001 0 0 0 25.869141 3 L 20 3 A 1.0001 1.0001 0 1 0 20 5 L 23.585938 5 L 13.292969 15.292969 A 1.0001 1.0001 0 1 0 14.707031 16.707031 L 25 6.4140625 L 25 10 A 1.0001 1.0001 0 1 0 27 10 L 27 4.1269531 A 1.0001 1.0001 0 0 0 25.980469 2.9902344 z M 6 7 C 4.9069372 7 4 7.9069372 4 9 L 4 24 C 4 25.093063 4.9069372 26 6 26 L 21 26 C 22.093063 26 23 25.093063 23 24 L 23 14 L 23 11.421875 L 21 13.421875 L 21 16 L 21 24 L 6 24 L 6 9 L 14 9 L 16 9 L 16.578125 9 L 18.578125 7 L 16 7 L 14 7 L 6 7 z"
-                ></path>
-              </svg>
-            </div>
-          </button>
 
-        </div>
+       <!-- Navigation -->
+       <div class="px-20 w-full h-14 gap-20 flex justify-start items-center">
 
-      </div>
-    </header>
 
+         <div
+           class="px-8 py-2 cursor-pointer hover:bg-black hover:text-white hover:underline transition duration-75"
+         >
+           Home
+         </div>
 
-    <section
-      class="flex-1 w-full text-lg flex justify-center"
-    >
 
-      <div
-        class="border shadow-2xl shrink-0 w-4/12 h-96 rounded-lg flex justify-start items-center p-2"
-      >
+         <div
+           class="px-8 py-2 cursor-pointer hover:bg-black hover:text-white hover:underline transition duration-75"
+         >
+           Projects
+         </div>
 
-        <!-- Profile Photo -->
-        <div
-          class="w-48 h-48 shrink-0 rounded-full overflow-hidden border-4 border-black"
-        >
 
-          <img
-            class="w-full h-full object-cover rounded-lg"
-            src="https://i.pinimg.com/474x/55/1f/ff/551fff636303fb8a696c213736ddc09e.jpg"
-            alt="Ravneet Singh"
-          />
+         <div
+           class="px-8 py-2 cursor-pointer hover:bg-black hover:text-white hover:underline transition duration-75"
+         >
+           Profile
+         </div>
 
-        </div>
 
+       </div>
 
-        <!-- Profile Information -->
-        <div class="h-full flex-1 text-center p-5 py-20">
 
-          <span class="text-3xl">
-            Ravneet Singh
-          </span>
+       <!-- GitHub -->
+       <div class="w-1/4 h-14 flex justify-center items-center gap-20">
 
-          <span class="text-sm block">
-            2510994789
-          </span>
 
-          <p class="text-gray-500 mt-4">
-            I’m Ravneet, a software engineering student with a strong
-            interest and experience in web development. I have worked
-            with technologies such as React, Tailwind CSS, Next.js,
-            and other modern web development tools.
-          </p>
+         <button
+           class="flex no-underline hover:underline cursor-pointer items-center gap-2"
+         >
+           Github
 
-        </div>
 
-      </div>
+           <div>
+             <svg
+               xmlns="http://www.w3.org/2000/svg"
+               x="0px"
+               y="0px"
+               width="30"
+               height="30"
+               viewBox="0 0 30 30"
+             >
+               <path
+                 d="M 25.980469 2.9902344 A 1.0001 1.0001 0 0 0 25.869141 3 L 20 3 A 1.0001 1.0001 0 1 0 20 5 L 23.585938 5 L 13.292969 15.292969 A 1.0001 1.0001 0 1 0 14.707031 16.707031 L 25 6.4140625 L 25 10 A 1.0001 1.0001 0 1 0 27 10 L 27 4.1269531 A 1.0001 1.0001 0 0 0 25.980469 2.9902344 z M 6 7 C 4.9069372 7 4 7.9069372 4 9 L 4 24 C 4 25.093063 4.9069372 26 6 26 L 21 26 C 22.093063 26 23 25.093063 23 24 L 23 14 L 23 11.421875 L 21 13.421875 L 21 16 L 21 24 L 6 24 L 6 9 L 14 9 L 16 9 L 16.578125 9 L 18.578125 7 L 16 7 L 14 7 L 6 7 z"
+               ></path>
+             </svg>
+           </div>
+         </button>
 
-    </section>
 
+       </div>
 
-    <section
-      class="w-full flex flex-col items-center px-10"
-    >
 
-      <p class="text-3xl mb-8">
-        Projects
-      </p>
+     </div>
+   </header>
 
 
-      <div
-        class="w-full max-w-6xl grid grid-cols-1 md:grid-cols-3 gap-8"
-      >
 
 
-        <!-- PROJECT 1 -->
-        <div
-          class="border rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300"
-        >
+   <section
+     class="flex-1 w-full text-lg flex justify-center"
+   >
 
-          <img
-            class="w-full h-56 object-cover"
-            src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=800&q=80"
-            alt="LegalMetrix"
-          />
 
-          <div class="p-5">
+     <div
+       class="border shadow-2xl shrink-0 w-4/12 h-96 rounded-lg flex justify-start items-center p-2"
+     >
 
-            <h2 class="text-2xl mb-2">
-              LegalMetrix
-            </h2>
 
-            <p class="text-gray-500 mb-4">
-              An AI-powered legal metrology inspection system that
-              helps inspectors identify packaging and labelling
-              violations in packaged products.
-            </p>
+       <!-- Profile Photo -->
+       <div
+         class="w-48 h-48 shrink-0 rounded-full overflow-hidden border-4 border-black"
+       >
 
-            <div class="flex flex-wrap gap-2">
 
-              <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">
-                React
-              </span>
+         <img
+           class="w-full h-full object-cover rounded-lg"
+           src="./img/profile"
+           alt="Ravneet Singh"
+         />
 
-              <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">
-                FastAPI
-              </span>
 
-              <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">
-                Gemini AI
-              </span>
+       </div>
 
-            </div>
 
-          </div>
 
-        </div>
 
+       <!-- Profile Information -->
+       <div class="h-full flex-1 text-center p-5 py-20">
 
-        <!-- PROJECT 2 -->
-        <div
-          class="border rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300"
-        >
 
-          <img
-            class="w-full h-56 object-cover"
-            src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=800&q=80"
-            alt="Weather App"
-          />
+         <span class="text-3xl">
+           Ravneet Singh
+         </span>
 
-          <div class="p-5">
 
-            <h2 class="text-2xl mb-2">
-              Weather App
-            </h2>
+         <span class="text-sm block">
+           2510994789
+         </span>
 
-            <p class="text-gray-500 mb-4">
-              A weather application with location search, weather
-              information, autocomplete and a backend API layer
-              for handling external requests.
-            </p>
 
-            <div class="flex flex-wrap gap-2">
+         <p class="text-gray-500 mt-4">
+           I’m Ravneet, a software engineering student with a strong
+           interest and experience in web development. I have worked
+           with technologies such as React, Tailwind CSS, Next.js,
+           and other modern web development tools.
+         </p>
 
-              <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">
-                React
-              </span>
 
-              <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">
-                Express
-              </span>
+       </div>
 
-              <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">
-                Redis
-              </span>
 
-            </div>
+     </div>
 
-          </div>
 
-        </div>
+   </section>
 
 
-        <!-- PROJECT 3 -->
-        <div
-          class="border rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300"
-        >
 
-          <img
-            class="w-full h-56 object-cover"
-            src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=800&q=80"
-            alt="Watch Together"
-          />
 
-          <div class="p-5">
+   <section
+     class="w-full flex flex-col items-center px-10"
+   >
 
-            <h2 class="text-2xl mb-2">
-              Watch Together
-            </h2>
 
-            <p class="text-gray-500 mb-4">
-              A real-time watch-together platform concept designed
-              to synchronise video playback between multiple users
-              with a focus on low-latency communication.
-            </p>
+     <p class="text-3xl mb-8">
+       Projects
+     </p>
 
-            <div class="flex flex-wrap gap-2">
 
-              <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">
-                Java
-              </span>
 
-              <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">
-                WebSocket
-              </span>
 
-              <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">
-                Backend
-              </span>
+     <div
+       class="w-full max-w-6xl grid grid-cols-1 md:grid-cols-3 gap-8"
+     >
 
-            </div>
 
-          </div>
 
-        </div>
 
-      </div>
+       <!-- PROJECT 1 -->
+       <div
+         class="border rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300"
+       >
 
-    </section>
 
-    <footer>
+         <img
+           class="w-full h-56 object-cover"
+           src="./img/legal"
+           alt="LegalMetrix"
+         />
 
-      <div
-        class="w-full px-5 text-center text-gray-500 border-t py-5"
-      >
-        Thanks for visiting my portfolio! I’m Ravneet Singh,
-        a software engineering student passionate about web
-        development and building modern full-stack applications.
-        2026 Ravneet Singh. All rights reserved.
-      </div>
 
-    </footer>
+         <div class="p-5">
 
-  </div>
+
+           <h2 class="text-2xl mb-2">
+             LegalMetrix
+           </h2>
+
+
+           <p class="text-gray-500 mb-4">
+             An AI-powered legal metrology inspection system that
+             helps inspectors identify packaging and labelling
+             violations in packaged products.
+           </p>
+
+
+           <div class="flex flex-wrap gap-2">
+
+
+             <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">
+               React
+             </span>
+
+
+             <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">
+               FastAPI
+             </span>
+
+
+             <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">
+               Gemini AI
+             </span>
+
+
+           </div>
+
+
+         </div>
+
+
+       </div>
+
+
+
+
+       <!-- PROJECT 2 -->
+       <div
+         class="border rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300"
+       >
+
+
+         <img
+           class="w-full h-56 object-cover"
+           src="./img/weather.png"
+           alt="Weather App"
+         />
+
+
+         <div class="p-5">
+
+
+           <h2 class="text-2xl mb-2">
+             Weather App
+           </h2>
+
+
+           <p class="text-gray-500 mb-4">
+             A weather application with location search, weather
+             information, autocomplete and a backend API layer
+             for handling external requests.
+           </p>
+
+
+           <div class="flex flex-wrap gap-2">
+
+
+             <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">
+               React
+             </span>
+
+
+             <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">
+               Express
+             </span>
+
+
+             <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">
+               Redis
+             </span>
+
+
+           </div>
+
+
+         </div>
+
+
+       </div>
+
+
+
+
+       <!-- PROJECT 3 -->
+       <div
+         class="border rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300"
+       >
+
+
+         <img
+           class="w-full h-56 object-cover"
+           src="./img/watchMovie"
+           alt="Watch Together"
+         />
+
+
+         <div class="p-5">
+
+
+           <h2 class="text-2xl mb-2">
+             Watch Together
+           </h2>
+
+
+           <p class="text-gray-500 mb-4">
+             A real-time watch-together platform concept designed
+             to synchronise video playback between multiple users
+             with a focus on low-latency communication.
+           </p>
+
+
+           <div class="flex flex-wrap gap-2">
+
+
+             <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">
+               Java
+             </span>
+
+
+             <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">
+               WebSocket
+             </span>
+
+
+             <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">
+               Backend
+             </span>
+
+
+           </div>
+
+
+         </div>
+
+
+       </div>
+
+
+     </div>
+
+
+   </section>
+
+
+   <footer>
+
+
+     <div
+       class="w-full px-5 text-center text-gray-500 border-t py-5"
+     >
+       Thanks for visiting my portfolio! I’m Ravneet Singh,
+       a software engineering student passionate about web
+       development and building modern full-stack applications.
+       2026 Ravneet Singh. All rights reserved.
+     </div>
+
+
+   </footer>
+
+
+ </div>
+
 
 </body>
 
+
 </html>
-
-
 
 
